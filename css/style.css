@@ -214,7 +214,7 @@ header {
                                                                     /* border-left:1px solid #30303094; */
 
                                                                     font-size: 30px;
-
+                                                                    
                                                                     animation: zoomies3 1.4s ease-in;
                                                                     white-space:nowrap;
 
@@ -334,7 +334,9 @@ header {
     position: absolute;
     font-size: x-large;
     width: 100%;
-    background-color: #6e6e6e83;  
+    /* background-color: #6e6e6e83;   */
+    background-color: #5a545269;  
+
     color: white; 
     align-content: center;
     border-bottom: 1px solid #30303048;
@@ -343,16 +345,17 @@ header {
 }
 
 .kuchb p{
-    background-color: #bbbbbb60;
+    background-color: #b4afaf5e;
     width: 85%;
     color: black;
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
     padding: 6px 40px;
-    border: 2px solid #808080a4;
-    border-bottom: 2px solid #30303054;
-    border-right: 2px solid #30303054;
+    border-bottom: 2px solid #3030308a;
+    border-right: 2px solid #30303050;
+    border-top: 1px solid #fdf9f963;
+    border-left: 1px solid #e4e4e45b;
 }
 
 
