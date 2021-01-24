@@ -56,6 +56,11 @@ body {
 
     background-color: #9F9F9F;
 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
 }
 @keyframes zoomies{
     
