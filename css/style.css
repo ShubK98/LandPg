@@ -169,11 +169,32 @@ header {
                 border-radius: 6px;
 
                 box-shadow: 4px 8px 6px 2px grey;
-                animation: zoomiesh 0.6s ease-in; 
                 transition: 200ms;
 
             }
-
+            @media(min-width:600px)
+                {
+                    h2.section__title--Res
+                    {
+                        padding: 1em;
+                        margin-top: 0em;
+                        transition: 3s ease-in;
+                        
+                        border-right: 0;
+                        margin: 10px;
+                       
+                    }
+                    
+                    .but1{
+                        padding: 4em;
+                        animation: zoomies3 1.8s ease-in;
+                    }
+                    .but2
+                    {
+                        animation: zoomies3 1.8s ease-in;
+                    }
+                
+                }
 
                                                                 .Myres
                                                                 {   
@@ -197,6 +218,10 @@ header {
                                                                 }
                                                                 @media(max-width:600px)
                                                                 {
+                                                                    .wrp
+                                                                    {
+                                                                        animation: zoomiesh 0.6s ease-in; 
+                                                                    }
                                                                     .Res
                                                                     {
                                                                         
@@ -216,7 +241,6 @@ header {
                                                                     box-shadow: 2px 4px 5px 0px #46464671;
                                                                     font-size: 30px;
                                                                     
-                                                                    animation: zoomies3 1.4s ease-in;
                                                                     white-space:nowrap;
 
                                                                 }
@@ -229,7 +253,7 @@ header {
                                                                     margin-top: -1.5em;
                                                                     margin-bottom: 1em;
                                                                     padding:18px;
-                                                                    
+                                                                    white-space:nowrap;
                                                                     font-weight: 570;
                                                                     border-radius: 4px;
                                                                     margin:8px;
@@ -245,6 +269,14 @@ header {
                                                                     box-shadow: 2px 4px 5px 0px #46464671;
                                                                     transition: 0.3s;
 
+                                                                }
+
+                                                                @media(min-width:600px)
+                                                                {
+                                                                    .buttn
+                                                                    {
+                                                                        padding: 2em;
+                                                                    }
                                                                 }
 
                                                                 .buttn:hover
@@ -303,6 +335,7 @@ header {
                                                                             background-color: #ffffff15;
                                                                             transition: 300ms;
                                                                             border-right: 0px;
+                                                                    animation: zoomies3 1.4s ease-in;
 
                                                                         }
                                                                         .section__title--Res:hover{
@@ -316,7 +349,7 @@ header {
                                                                         width: 0;
                                                                         color: transparent;
                                                                     }
-                                                                    60%{
+                                                                    60%{    
                                                                         color: transparent;
                                                                     }
                                                                      85%{
